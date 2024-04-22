@@ -1,0 +1,148 @@
+/*The styling of the body is done here*/
+body{
+    background-image: url("background_image2.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0%;
+    background-position: 0%;
+    max-width: max-content;
+    max-height: max-content;
+    padding: 15.7rem 0 8rem;
+
+    
+    
+}
+/*The styling of the box where the form is available is done here*/
+.box{
+    overflow: hidden;
+    
+    position: absolute;
+    left:95px;
+    top: 30px;
+    bottom: 20px;
+    
+    backdrop-filter: blur(30px);
+    
+
+    width: 400px;
+    height: 650px;
+    margin: 5px auto;
+    
+    
+    border: 1px solid black; 
+    border-radius: 1px;
+}
+.box::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url("background_image2.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0 0;
+    filter: blur(10px); /* Adjust blur intensity */
+    z-index: -1; /* Place behind other content */
+}
+/*The styling of the form is done here*/
+.form-group {
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    grid-gap: 10px; 
+    align-items: center; 
+    margin-bottom: 30px; 
+    margin-left: 30px;
+    width: 600px;
+    font-family: Inter;
+    
+    
+    
+  }
+
+
+
+
+.form-control{
+    background-color: #AEAEAE;
+    
+    box-sizing: border-box;
+    height: 40px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 15px;
+    color:black;
+    & :focus{
+        background-color: #AEAEAE;
+    }
+
+}
+/*The styling of the logo is done here*/
+.logo{
+    margin-left: 30px;
+    
+    margin-top: 30px;
+}
+
+
+
+
+
+
+
+
+/*The styling of the welcome class is done here*/
+.Welcome{
+    font-size: 30px;
+    font-style: Inter;
+    color: white;
+    font-family: Inter;
+    font-weight: bold;
+    padding: 20px;
+    position: relative;
+    margin-right: 130px;
+    margin-bottom: 30px;
+    margin-top: 50px;
+    margin-left: 10px;
+
+}
+
+/*The styling of the button is done here*/
+.btn-primary{
+    position: center;
+    margin-left: 30px;
+    background-color: lightgreen;
+    width: 290px;
+    color: black;
+    margin-top: 50px;
+    border-color: lightgreen;
+    
+
+}
+.btn-primary:hover{
+    background-color: lightgreen;
+    color: black;
+    
+
+}
+
+.btn-primary:active,
+.btn-primary:focus,
+.btn-primary:active:focus{
+    background-color: lightgreen !important;
+    color: black !important;
+    background-color: lightgreen !important;
+    border-color: lightgreen !important;
+}
+
+/*The styling of the registration is done here*/
+.Registration{
+    margin-left: 65px;
+    margin-top: 80px;
+    color: white;
+    margin-bottom: 80px;
+
+}
+
+

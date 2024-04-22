@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://fonts.googleapis.com/css?family=Inter' rel='stylesheet'>
+    <link rel="stylesheet" href="./regstyle.css">
+    <title>Spotrs-App</title>
+</head>
+<body>
+    <div class="wrapper">
+        <section class="signup-page">
+            <div class="signup-form-container">
+                <h1 class="signup-heading">Register</h1>
+                <p class="signup-dics">Please Select your role</p>
+
+                <form action="" method="" class="sign-form">
+
+                    <div class="radio-catagory">
+                        <div class="radio-container">
+                            <input type="radio" id="team-leader" name="radio-group">
+                            <label for="team-leader">Team-Leader</label>
+                        </div>
+                        <div class="radio-container">
+                            <input type="radio" id="Member" name="radio-group">
+                            <label for="Member">Menber</label>
+                        </div>
+                    </div>
+                    
+                    <label for="username"></label>
+                    <input type="text" id = "username" class="new-user-name" placeholder="Name" required>
+
+                    <label for="password"></label>
+                    <input type="password" id = "password" class="new-user-password" placeholder="Password" required>
+
+                    <label for="password2"></label>
+                    <input type="password" id = "password2" class="new-user-password2" placeholder="Repeat Password" required>
+                    <br /><small class="error-msg"></small>
+                    <button class="signup-btn" type="button">REGISTER</button>
+                  </form>
+            </div>
+            <div class="image"></div>
+        </section>
+          
+    </div>
+</body>
+<script src="backend.js"></script>
+
+</html>
